@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_no_kill_category">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pref_no_kill"
+            android:summary="@string/pref_enable_no_kill_summary"
+            android:title="@string/pref_enable_title" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

@@ -1,0 +1,19 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "org.hvdw.sofiaservernokill"
+        minSdkVersion 21
+        targetSdkVersion 23
+        versionCode 3
+        versionName "1.2"
+    }
+}
+
+dependencies {
+    provided 'de.robv.android.xposed:api:81'
+    provided 'de.robv.android.xposed:api:81:sources'
+}
